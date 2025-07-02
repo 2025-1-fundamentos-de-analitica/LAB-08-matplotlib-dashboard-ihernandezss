@@ -1,0 +1,58 @@
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Shipping Dashboard</title>
+        <style>
+            body { font-family: Arial; background-color: #f4f4f9; margin: 0; }
+            h1 { text-align: center; margin-top: 40px; color: #2c3e50; }
+            .container { display: flex; flex-direction: column; align-items: center; padding: 20px; }
+            .dashboard-cards { display: flex; flex-wrap: wrap; justify-content: center; }
+            .card {
+                background: white; margin: 15px; padding: 20px; width: 300px;
+                border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                text-align: center;
+            }
+            .card img { max-width: 100%; border-radius: 8px; }
+            .card-title { font-weight: bold; margin-top: 15px; color: #2c3e50; }
+            .card-description { font-size: 0.9em; color: #7f8c8d; }
+            .footer {
+                text-align: center; padding: 20px;
+                background-color: #34495e; color: white; margin-top: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Shipping Dashboard</h1>
+            <div class="dashboard-cards">
+    
+        <div class="card">
+            <img src="shipping_per_warehouse.png" alt="Shipping per Warehouse">
+            <div class="card-title">Shipping per Warehouse</div>
+            <div class="card-description">Distribución de envíos por bodega.</div>
+        </div>
+        <div class="card">
+            <img src="mode_of_shipment.png" alt="Mode of Shipment">
+            <div class="card-title">Mode of Shipment</div>
+            <div class="card-description">Conteo de envíos por modo de transporte.</div>
+        </div>
+        <div class="card">
+            <img src="average_customer_rating.png" alt="Average Customer Rating">
+            <div class="card-title">Average Customer Rating</div>
+            <div class="card-description">Distribución de calificaciones de clientes.</div>
+        </div>
+        <div class="card">
+            <img src="weight_distribution.png" alt="Weight Distribution">
+            <div class="card-title">Weight Distribution</div>
+            <div class="card-description">Distribución de pesos de productos.</div>
+        </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Shipping Dashboard. Todos los derechos reservados.</p>
+        </div>
+    </body>
+    </html>
+    
